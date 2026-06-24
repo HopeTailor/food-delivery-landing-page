@@ -22,4 +22,4 @@ You can view the live website here: [Live Demo Link](https://omiddarzi.github.io
 ![Project Preview](Assets/screenshot.png)
 
 ## ✍️ Author
-- **Omid Darzi** - [Your GitHub Profile](https://github.com/omiddarzi)
+- **Omid Darzi** - [My GitHub Profile](https://github.com/omiddarzi)
