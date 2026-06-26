@@ -831,7 +831,7 @@ body {
   gap: 5rem;
   align-items: center;
   justify-content: center;
-  padding: 4rem;
+  padding: 4rem !important;
 }
 
 .i2 {
@@ -883,7 +883,7 @@ body {
   background-image: url(Assets/back.png);
   text-align: center;
   padding: 5rem;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -907,6 +907,122 @@ body {
 
 .j3:hover {
   background-color: rgba(241, 114, 40, 0.7);
+}
+
+.footer {
+    background-color: #212121;
+    color: white;
+    padding: 6rem 0 3rem;
+}
+
+.footer-container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.footer-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.cities-flex-container {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    gap: 1rem;
+}
+
+.city-column {
+    flex: 1;
+}
+
+.city-item {
+    color: #adadad;
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+    cursor: pointer;
+}
+
+.city-item:hover {
+    color: #FFB30E;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid #353535;
+    margin: 40px 0;
+}
+
+.footer-links-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.column-title {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.link-item {
+    color: #adadad;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.link-item:hover {
+    color: #FFB30E;
+}
+
+.subscribe-input-group {
+    display: flex;
+    margin-top: 2rem;
+    width: 80%;
+}
+
+.subscribe-input-group input {
+    background: #353535;
+    border: none;
+    padding: 1rem;
+    color: white;
+    border-radius: 5px 0 0 5px;
+    width: 100%;
+}
+
+.subscribe-input-group button {
+    background: #FFB30E;
+    border: none;
+    padding: 1rem 2rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(255, 179, 14, 0.3);
+    width: 100%;
+    text-align: center;
+}
+
+.subscribe-input-group button:hover {
+  background: rgba(255, 179, 14, 0.7);
+}
+
+.social-icons {
+  margin-bottom: 1rem;
+}
+
+.social-icons img {
+    margin-right: 1rem;
+    color: #adadad;
+    cursor: pointer;
+    width: 8%;
+    transition: all ease 0.4s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
 }
 
 @media (max-width: 1024px) {
@@ -1127,6 +1243,32 @@ body {
     width: 100%;
   }
 
+  .h1 {
+    font-size: 2rem;
+  }
+
+  .h2 {
+    font-size: 1rem;
+  }
+
+  .store-buttons {
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .h3 img {
+    width: 1.25rem;
+  }
+
+  .h4 {
+    font-size: 0.75rem;
+  }
+
+  .h5 {
+    font-size: 1rem;
+  }
+
   .feature-item {
     flex-direction: column;
     text-align: center;
@@ -1139,9 +1281,36 @@ body {
   .i3 {
     width: 100%;
     text-align: center;
+    padding: 2rem 2rem;
+  }
+
+  .i4 {
+    font-size: 1rem;
+  }
+
+  .i5 {
+    font-size: 0.75rem;
   }
 
   .i6 {
     margin-top: 0rem;
+    font-size: 0.65rem;
+    text-align: center;
+    padding: 1rem 1.5rem;
+  }
+
+  
+  .subscribe-input-group {
+    
+    font-size: 0.5rem;
+    flex-direction: column ;
+  }
+
+  .subscribe-input-group input {
+    width: 100%;
+  }
+
+  .subscribe-input-group button {
+    width: 100%;
   }
 }
