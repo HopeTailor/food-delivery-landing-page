@@ -825,6 +825,85 @@ body {
   font-size: 1.5rem;
 }
 
+.i1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.i2 {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 10px 10px 64px 0px rgba(0,0,0,0.2);
+}
+
+.i3 {
+  width: 40%;
+  padding: 5rem 3rem 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.i4 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.i5 {
+  font-size: 1erm;
+  font-weight: 400;
+  color: #616161;
+}
+
+.i6 {
+  color: white;
+  background-color: rgba(241, 114, 40, 0.9);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 1rem;
+  margin-top: 4rem;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.i6:hover {
+  background-color: rgba(241, 114, 40, 0.7);
+}
+
+.j1 {
+  background-image: url(Assets/back.png);
+  text-align: center;
+  padding: 5rem;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.j2 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: white;
+}
+
+.j3 {
+  margin-top: 2.5rem;
+  border: none;
+  padding: 1rem 2rem;
+  background-color: rgb(241, 114, 40);
+  color: white;
+  font-weight: 600;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
 @media (max-width: 1024px) {
   .container {
     padding: 4rem 2rem 0;
@@ -1046,5 +1125,18 @@ body {
   .feature-item {
     flex-direction: column;
     text-align: center;
+  }
+
+  .i2 {
+    flex-direction: column;
+  }
+
+  .i3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .i6 {
+    margin-top: 0rem;
   }
 }
